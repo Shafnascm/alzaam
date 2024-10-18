@@ -80,16 +80,7 @@ JS TABLE OF CONTENTS
 
 
 
-        /*-----------------------------------
-          04. Sticky Header 
-        -----------------------------------*/
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 150) {
-                $("#header-sticky").addClass("sticky open");
-            } else {
-                $("#header-sticky").removeClass("sticky open");
-            }
-        });
+
 
 
 
@@ -794,6 +785,7 @@ JS TABLE OF CONTENTS
                 }
             });
         });
+        
 
 
 
@@ -848,4 +840,5 @@ JS TABLE OF CONTENTS
 
 
 })(jQuery); // End jQuery
+
 
