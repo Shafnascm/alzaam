@@ -11,7 +11,7 @@
     border-radius: 100px;
     border: 8px solid #ffa803;
     border-top: 0px;
-    background: var(--white-color);
+    background: white;
 }
 
 @media (max-width: 1899px) {
